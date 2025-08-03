@@ -1,0 +1,69 @@
+        body{
+            background-color: rgb(193, 140, 111);
+            color: whitesmoke;
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            background-color: rgb(228, 165, 130);
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1{
+            color: rgb(255, 255, 255);
+        }
+
+        /* Start menu styles */
+        nav a{
+            color: lightgray;
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: x-large;
+        }
+
+        nav a:hover{
+            color: white;
+        }
+        /* End menu styles */
+
+        main{
+            padding: 20px;
+        }
+
+
+        .img-decorative{
+            /* the image will fil in 90% of the container it is in; based on how the page is set up, it will fill in the screen size */
+            width: 100%;
+            /* so the image does not exceed the arbitrary limit of 2560px that I wish to impose on this example */
+            max-width: 2560px;
+            /* gives the rounded corners look */
+            border-radius: 10px;
+        }
+
+        /* Start Flex box styles - can use on any elements, since they are custom class*/
+        /* the parent container styles */
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        /* the styles for each flex column */
+        .flex-column{
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(178, 125, 96);
+        }
+
+        .flex-column img{
+            max-width: 400px;
+            width: 80%;
+            border-radius: 5px;
+        }
+        /* End Flex box styles
