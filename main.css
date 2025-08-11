@@ -13,16 +13,69 @@
 
         h1{
             color: rgb(255, 255, 255);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 
+            /* Main Outline Sections */
+                         0.05em 0 black, 
+                         0 0.05em black, 
+                        -0.05em 0 black, 
+                         0 -0.05em black,
+            /* Rounded Outline Sections */ 
+                -0.035em -0.035em black, 
+                 -0.035em 0.035em black, 
+                 0.035em -0.035em black, 
+                  0.035em 0.035em black;
+            margin: 12;
+            padding: 12;
+        }
+
+        h2{
+            color: rgb(255, 255, 255);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 
+            /* Main Outline Sections */
+                         0.025em 0 coral, 
+                         0 0.025em coral, 
+                        -0.025em 0 coral, 
+                        0 -0.025em coral,
+            /* Rounded Outline Sections */ 
+                 -0.035em -0.033em coral, 
+                  -0.033em 0.035em coral, 
+                  0.033em -0.033em coral, 
+                   0.033em 0.033em coral;
+            margin: 12;
+            padding: 12;
         }
 
         /* Start menu styles */
         nav a{
-            color: lightgray;
-            text-decoration: none;
+        /*  color: lightgray;
+
             padding: 10px;
             text-align: center;
             font-weight: bold;
             font-size: x-large;
+        */
+        
+            color: lightgray;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: none;
+            text-shadow:
+            /* Main Outline Sections */
+                         0.05em 0 grey, 
+                         0 0.05em grey, 
+                        -0.05em 0 gray, 
+                        0 -0.05em gray,
+            /* Rounded Outline Sections */ 
+                -0.035em -0.035em gray, 
+                 -0.035em 0.035em gray, 
+                 0.035em -0.035em gray, 
+                  0.035em 0.035em gray;
+            margin: 0;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+            font-size: large;
         }
 
         nav a:hover{
