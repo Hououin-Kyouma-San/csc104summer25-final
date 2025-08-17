@@ -47,6 +47,43 @@
             padding: 12;
         }
 
+        h3{
+            color: rgb(255, 255, 255);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 
+            /* Main Outline Sections */
+                         0.025em 0 coral, 
+                         0 0.025em coral, 
+                        -0.025em 0 coral, 
+                        0 -0.025em coral,
+            /* Rounded Outline Sections */ 
+                 -0.035em -0.033em coral, 
+                  -0.033em 0.035em coral, 
+                  0.033em -0.033em coral, 
+                   0.033em 0.033em coral;
+            margin: 12;
+            padding: 12;
+        }
+
+        p{
+            color: rgb(255, 255, 255);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow: 
+            /* Main Outline Sections */
+                         0.025em 0 darkgrey, 
+                         0 0.025em darkgray, 
+                        -0.025em 0 darkgrey, 
+                        0 -0.025em darkgray,
+            /* Rounded Outline Sections */ 
+                 -0.035em -0.033em darkgrey,
+                  -0.033em 0.035em darkgrey,
+                  0.033em -0.033em darkgrey,
+                   0.033em 0.033em darkgrey,
+            margin: 12;
+            padding: 12;
+            font-size: large
+        }
+
         /* Start menu styles */
         nav a{
         /*  color: lightgray;
